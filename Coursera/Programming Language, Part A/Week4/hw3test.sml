@@ -38,5 +38,6 @@ val test10_2 = check_pat (TupleP[TupleP[Variable "x",ConstructorP ("wild",Wildca
 val test10_3 = check_pat (ConstructorP ("hi",TupleP[Variable "x",Variable "x"])) = false
 
 val test11 = match (Const(1), UnitP) = NONE
+val test11_1 = match (Tuple[Const 17,Unit,Const 4,Constructor ("egg",Const 4),Constructor ("egg",Constructor ("egg",Const 4))],TupleP[Wildcard,Wildcard]) = NONE
 
 val test12 = first_match Unit [UnitP] = SOME []

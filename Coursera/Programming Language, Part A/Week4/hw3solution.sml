@@ -111,12 +111,14 @@ fun check_pat p =
 fun match tuple =
 	case tuple of
 		(_, Wildcard) => SOME []
-		| (v, Variable p) => SOME [(v, p)]
+		| (v, Variable p) => SOME [(p, v)]
 		| (Unit, UnitP) => SOME []
 		| (Const v, ConstP p) => if v = p then SOME [] else NONE
-		| (Tuple vs, TupleP ps) => ((all_answers match (ListPair.zip(vs, ps))) handle UnequalLengths => NONE)
+		| (Tuple vs, TupleP ps) => if List.length vs = List.length ps
+									then (all_answers match (ListPair.zip(vs, ps)))
+									else NONE
 		| (Constructor (s1, v), ConstructorP (s2, p)) => if s1 = s2 then match (v, p) else NONE
-		| _ => NONE	
+		| _ => NONE
 
 (* Problem 12 *)
 fun first_match v ps =
