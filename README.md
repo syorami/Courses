@@ -7,7 +7,9 @@ Online courses learning materials and assignments
 
 - [ ] Data Structures ([Link](https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms))
 
-- [ ] Programming Languages, Part A ([Link](https://www.coursera.org/learn/programming-languages))
+- [x] Programming Languages, Part A ([Link](https://www.coursera.org/learn/programming-languages))
+
+- [ ] Programming Languages, Part B ([Link](https://www.coursera.org/learn/programming-languages-part-b))
 
 ## OCW
 
