@@ -5,8 +5,7 @@
 
 ;; Be sure to put your homework file in the same folder as this test file.
 ;; Uncomment the line below and change HOMEWORK_FILE to the name of your homework file.
-;;(require "HOMEWORK_FILE")
-
+(require "hw4.rkt")
 (require rackunit)
 
 ;; Helper functions
@@ -27,7 +26,7 @@
    
    ; list-nth-mod test
    (check-equal? (list-nth-mod (list 0 1 2 3 4) 2) 2 "list-nth-mod test")
-   
+
    ; stream-for-n-steps test
    (check-equal? (stream-for-n-steps ones 2) (list 1 1) "stream-for-n-steps test")
    
@@ -39,7 +38,7 @@
    
    ; stream-add-zero test
    (check-equal? (stream-for-n-steps (stream-add-zero ones) 1) (list (cons 0 1)) "stream-add-zero test")
-   
+
    ; cycle-lists test
    (check-equal? (stream-for-n-steps (cycle-lists (list 1 2 3) (list "a" "b")) 3) (list (cons 1 "a") (cons 2 "b") (cons 3 "a")) 
                  "cycle-lists test")
