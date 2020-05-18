@@ -5,8 +5,7 @@
 
 ;; Be sure to put your homework file in the same folder as this test file.
 ;; Uncomment the line below and, if necessary, change the filename
-;;(require "hw5")
-
+(require "hw5.rkt")
 (require rackunit)
 
 (define tests
@@ -36,7 +35,7 @@
    
    ;; ifaunit test
    (check-equal? (eval-exp (ifaunit (int 1) (int 2) (int 3))) (int 3) "ifaunit test")
-   
+
    ;; mlet* test
    (check-equal? (eval-exp (mlet* (list (cons "x" (int 10))) (var "x"))) (int 10) "mlet* test")
    
@@ -52,7 +51,7 @@
    (eval-exp (call (call mupl-mapAddN (int 7))
                    (racketlist->mupllist 
                     (list (int 3) (int 4) (int 9)))))) (list (int 10) (int 11) (int 16)) "combined test")
-   
+
    ))
 
 (require rackunit/text-ui)
