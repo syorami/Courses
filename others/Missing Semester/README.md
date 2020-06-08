@@ -2,9 +2,9 @@
 
 Course URL: [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
-Days Spent: 21/05/2020 -
+Days Spent: 21/05/2020 - 08/06/2020, **18 Days**
 
-Hours Spent:
+Hours Spent: **35 Hours**
 
 ## Course Wrap-Up
 
@@ -29,3 +29,7 @@ Hours Spent:
 * Lecture 10: Potpourri
 
 * Lecture 11: Q&A
+
+## About the Course
+
+The course content is not so hard to follow and it really helps clarify the usage of some really helpful tools. However, the exercise can took much more time than I've expected to get customed with new tools and seach for related topics to understand what is actually going on, while those efforts are actually worthy.

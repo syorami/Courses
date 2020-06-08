@@ -1,8 +1,8 @@
 # Programming Language, Part A
 
-## Time Duration
+Course URL: [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
 
-Days Spent: 04/04/2020 - 24/04/2020, **20 days**
+Days Spent: 04/04/2020 - 24/04/2020, **20 Days**
 
 Hours Spent: **43.2 Hours**
 

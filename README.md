@@ -11,10 +11,12 @@ Online courses learning materials and assignments
 
 - [x] Programming Languages, Part B ([Link](https://www.coursera.org/learn/programming-languages-part-b))
 
+- [x] Programming Languages, Part C ([Link](https://www.coursera.org/learn/programming-languages-part-c))
+
 ## OCW
 
 ## edX
 
 ## Others
 
-- [ ] The Missing Semester of Your CS Education
+- [x] The Missing Semester of Your CS Education ([Link](https://missing.csail.mit.edu/))
