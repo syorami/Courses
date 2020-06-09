@@ -11,7 +11,7 @@ Online courses learning materials and assignments
 
 - [x] Programming Languages, Part B ([Link](https://www.coursera.org/learn/programming-languages-part-b))
 
-- [x] Programming Languages, Part C ([Link](https://www.coursera.org/learn/programming-languages-part-c))
+- [ ] Programming Languages, Part C ([Link](https://www.coursera.org/learn/programming-languages-part-c))
 
 ## OCW
 
